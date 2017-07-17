@@ -1,0 +1,173 @@
+html, body {
+  background-color: #1BBC9B;
+  font-family: 'Work Sans';
+  font-size: 22px;
+}
+
+h5 {
+  color: #eee;
+}
+
+.outer {
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.centered-row {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 0px;
+  zoom: 1;
+  *display: inline;
+  border-bottom: 10px solid transparent;
+  border-right:10px solid #EDEFF1;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-section {
+  display: inline;
+  float: left;
+}
+
+.image-section-smartphones {
+  display: block;
+}
+
+.signup-form-section {
+  display: inline;
+  padding-left: 0px;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.signup-form-section-smartphones {
+  display: block;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.signup-form {
+  background-color: #EDEFF1;
+  border-radius: 3%;
+  border: 1px solid #eee;
+  display: inline-block;
+}
+
+.signup-form-smartphones {
+  background-color: #EDEFF1;
+  border-radius: 1%;
+  /*border: 1px solid #eee;*/
+  display: block;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.title-smartphones {
+  font-weight: bold;
+  color: #eee;
+  display: inline;
+}
+
+.company-logo-smartphones {
+  display: inline;
+  height: 50px;
+  width: 42px;
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #EDEFF1;
+}
+
+.input-icon {
+  color: #BCC6C8;
+}
+
+.form-button {
+  background-color: #1BBC9B;
+  color: #eee;
+}
+
+.form-link-group {
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.form-link {
+text-decoration: underline;
+font-size: 12px;
+text-align: center;
+color: #BCC6C8;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #EDEFF1;
+  margin-top: 2px;
+}
+
+.arrow-section {
+  display: block;
+  padding-top: 0px;
+}
+
+.gif {
+  margin: 0 auto;
+  width: 100px;
+  display: none;
+  visibility: hidden;
+}
